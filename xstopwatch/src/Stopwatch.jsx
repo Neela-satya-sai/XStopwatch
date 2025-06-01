@@ -10,7 +10,7 @@ function Stopwatch() {
      
     let min = Math.trunc(elapsed/60);
     let sec =  elapsed%60;
-    return `Time:${min}:${sec <10 ? "0": ""}${sec}`
+    return `Time: ${min}:${sec <10 ? "0":""}${sec}`
   }
   
   function reset(){
